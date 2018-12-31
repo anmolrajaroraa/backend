@@ -1,5 +1,5 @@
 const db={
-    url : "mongodb://localhost:27017/bigb"
+    url : "mongodb://<dbuser>:<dbpassword>@ds013738.mlab.com:13738/bigb"
 }
 
 module.exports=db;

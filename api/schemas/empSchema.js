@@ -66,6 +66,15 @@ var empSchema=new Schema({
             type:String
         }
     }],
+    policeVerificationImg:{
+        data:Buffer,
+        contentType:String,
+    },
+    panCardPhoto:{
+        data:Buffer,
+        contentType:String,
+    }
+
     
 
 });

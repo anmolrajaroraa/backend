@@ -24,6 +24,14 @@ const object={
         nominee:null, 
     
     }], 
+    policeVerificationImg:{
+        data:null,
+        contentType:null
+    },
+    panCardPhoto:{
+        data:null,
+        contentType:null
+    }
     
 
 
