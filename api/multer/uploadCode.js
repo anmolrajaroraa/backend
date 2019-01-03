@@ -1,10 +1,6 @@
 const multer=require('multer');
 const path=require('path');
 
-const aws = require('aws-sdk');
-const multerS3 = require('multer-s3');
-const s3 = new aws.S3({});
-
 var files={
      policeVerification:false,
      adharCard:false,
