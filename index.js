@@ -2,6 +2,7 @@ const express=require("express");
 const path=require("path");
 const cors=require("cors");
 const app=express();
+const upload_file = require('./api/file_upload_route');
 
 console.log('req is here');
 
@@ -16,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-
+app.use("/",upload_file);
 var routes = require('./api/routes/empRoutes'); //importing route
 routes(app); //register the route
 
